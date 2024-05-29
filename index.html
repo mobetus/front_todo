@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>개인 프로젝트</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="js/todo.js"></script>
+  </head>
+  <body>
+    <h2 class="second">Self-introduction</h2>
+    <div class="allcard">
+      <div class="pic">
+        <div class="card">
+          <div class="name">
+            <img src="./img/광운대.svg" height="200" width="200" />
+            <p class="one">광운대학교</p>
+            <p class="two">영어산업학과</p>
+          </div>
+        </div>
+      </div>
+      <div class="pic">
+        <div class="card">
+          <div class="name">
+            <img src="./img/김현수.jpg" height="200" width="200" />
+            <p class="one">김현수</p>
+            <p class="two">2022322037</p>
+          </div>
+        </div>
+      </div>
+      <div class="pic">
+        <div class="card">
+          <img src="./img/호국이.jpg" height="200" width="200" />
+          <div class="name">
+            <p class="one">군필</p>
+            <p class="two">육군 병장 만기 전역</p>
+          </div>
+        </div>
+      </div>
+      <div class="pic">
+        <div class="card">
+          <img src="./img/광주.jpg" height="200" width="200" />
+          <div class="name">
+            <p class="one">고향</p>
+            <p class="two">광주광역시</p>
+          </div>
+        </div>
+      </div>
+      <div class="pic">
+        <div class="card">
+          <img src="./img/도봉구.svg" height="200" width="200" />
+          <div class="name">
+            <p class="one">거주지</p>
+            <p class="two">도봉구</p>
+          </div>
+        </div>
+      </div>
+      <div class="pic">
+        <div class="card">
+          <video
+            src="./img/턱걸이.mp4"
+            height="200"
+            width="200"
+            controls
+            autoplay
+            muted
+            preload
+          ></video>
+          <div class="name">
+            <p class="one">취미</p>
+            <p class="two">운동</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menubar">
+      <h1>방명록(Guestbook)</h1>
+      <h2>누추한 곳에 와주셔서 감사합니다</h2>
+      <input
+        type="text"
+        class="todo-input"
+        placeholder="이름을 남겨주세요 ex) 이름+Enter"
+      />
+      <div class="todos-container"></div>
+    </div>
+  </body>
+</html>
